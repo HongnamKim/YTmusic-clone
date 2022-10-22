@@ -1,0 +1,16 @@
+.header {
+  position: fixed;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px var(--horizontal-space);
+  box-sizing: border-box;
+  color: var(--text-main);
+  z-index: 2;
+}
+
+.header__column:last-child i {
+  margin-left: 30px;
+}
